@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>trello</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container fondo-menu">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand creamy" href="#">Trello</a>
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+					        <input type="text" class="form-control" placeholder="Search">
+					     </div>
+					          <button type="submit" class="btn btn-default">Buscar</button>
+					</form>
+					</div class="logo-trello">
+					<span class="header-logo-default">coño de la madre de todos</span>
+					<div>
+					<ul class="nav navbar-nav navbar-right">
+        				<li class="dropdown">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Emelys Arellano<span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+            				<li><a href="#">Perfil</a></li>
+            				<li><a href="#">Ayuda</a></li>
+            				<li><a href="#">Configuración</a></li>
+           				 	<li role="separator" class="divider"></li>
+            				<li><a href="#">Cerrar seción</a></li>
+          				</ul>
+      				</ul>
+				</div>
+			</div>	
+		</nav>
+	</header>
+	<section>
+		<div class="container">
+			<div class="row" id="contenedorListas">
+				<div class="col-xs-3 col-md-3 col-lg-3 col-sm-3 well well-sm">
+					<span onclick="mostrarFormulario()"><input type="text" class="form-control" placeholder="Añadir una lista.." id="nombreLista"></span>
+					<br>
+					<div class="escondido" id="formulario-lista">
+						<div class="boton-agregar">
+							<button onclick="guardarLista()">Guardar</button> 
+							<button class="emeliminar" onclick="elmininarLista()">x</button>
+						</div>
+						<hr>
+					</div>
+				</div>
+				<!--Lista de ejemplo-->
+				<div class="col-xs-3 col-md-3 col-sm-3 lista well well-sm">
+					<h4 class="listaEJ">Lista de ejemplo</h4>
+					<a href="#" class="agregarT">Agregar tarjeta nueva</a>
+					<br>
+				</div>
+
+			</div>
+		</div>
+	</section>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>

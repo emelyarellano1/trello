@@ -1,0 +1,62 @@
+/* header */
+.navbar-default {
+	background:#73D6D2;
+	font-size:20px;
+	color: #005DFF;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    font-size:22px
+}
+
+.dro {
+    color: #ffffff;
+     background-color:#73D6D2; 
+}
+ .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background-color: #73D6D2;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.header-logo-default {
+    background-image: url(../img/Trello-logo-blue.svg (1).png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 5pc 30px;
+    right: 0;
+    top: 0;
+}
+
+/* section  */
+.text-tp {
+	font-size:15px;
+	color: #BEBEBE;
+}
+.fa-user {
+	font-size:150%;
+	margin-right:10px;
+	margin-bottom:10px;
+	color: #BEBEBE;
+}
+
+.text-chek {
+	margin-right:10px;
+	margin-bottom:10px;
+	
+}
+.escondido {
+	display:none;
+}
+/*.lista {
+	background-color: blue;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+}
+
+
+
